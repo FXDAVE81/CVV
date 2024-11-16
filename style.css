@@ -1,0 +1,82 @@
+/* Aplicație globală pentru aliniere */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    color: #333;
+    text-align: center; /* Aliniere globală pe centru */
+}
+
+/* Stiluri pentru container */
+.container {
+    background: rgba(233, 180, 66, 0.9); 
+    padding: 20px 40px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    animation: fadeIn 1.5s ease-in-out;
+    max-width: 1200px;
+    width: 90%;
+}
+
+/* Stiluri pentru titluri */
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+    margin-bottom: 20px;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Stiluri pentru conținutul paginii */
+.content {
+    line-height: 1.8;
+    font-size: 1.2em;
+}
+
+.content p {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(192, 228, 240, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(192, 228, 240, 0.9);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    color: #028391;
+}
+
+/* La hover, păstrează alinierea și efectul */
+.content p:hover {
+    transform: translateX(10px);
+    opacity: 0.8;
+    background: rgba(61, 80, 87, 0.9);
+}
+
+/* Stiluri pentru buton */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background: #d63384;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #b82e6c;
+}
+
+/* Stiluri pentru footer */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
